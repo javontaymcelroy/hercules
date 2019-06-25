@@ -4,7 +4,12 @@ import './SCSS/About.scss';
 const AboutPage = () => {
   return (
     <div className='about-page'>
-      <h1>Welcome to About!</h1>
+      <div className='about-container'>
+        <h1 className='heading'>Our Powerful Team 💪</h1>
+        <p className='caption'>
+          Here’s our team of experts that all came together to create Hercules!
+        </p>
+      </div>
     </div>
   );
 };
