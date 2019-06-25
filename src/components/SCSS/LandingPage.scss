@@ -42,17 +42,18 @@
       position: relative;
       z-index: 500;
       left: 14.5vh;
-      margin-top: 4%;
+      margin-top: 5%;
       color: white;
       font-weight: 400;
+      font-size: 2rem;
     }
 
     .hero-btn {
       position: relative;
       z-index: 500;
-      left: -9vh;
+      left: -0.5vh;
       top: 15vh;
-      width: 10%;
+      width: 8.5%;
       padding: 0.3% 2.9%;
       display: flex;
       justify-content: center;
@@ -76,22 +77,29 @@
       right: 0;
       bottom: 0;
       display: flex;
+      justify-content: flex-end;
+      width: 64.2%;
 
       .content-1 {
         background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
 
-        h6 {
-          font-size: 1rem;
-          text-transform: uppercase;
-          position: relative;
-          left: 8%;
-        }
-
-        p {
+        .content1-container {
           width: 68%;
-          position: relative;
-          left: 8%;
-          top: -18%;
+
+          h6 {
+            font-size: 1rem;
+            margin: 0;
+          }
+
+          p {
+            margin: 0;
+            margin-top: 5%;
+          }
         }
       }
 
@@ -99,39 +107,62 @@
         background-image: url("../../assets/Rectangle.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        color: white;
 
-        h6 {
-          font-size: 1rem;
-          position: relative;
-          left: 15%;
-          top: 5%;
-          padding-top: 5%;
-        }
+        .content2-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin: 0 auto;
+          width: 70%;
 
-        p {
-          position: relative;
-          left: 15%;
-          width: 68%;
-        }
+          h6 {
+            color: white;
+            text-align: left;
+            margin: 0;
+            margin-top: 20%;
+            font-size: 1rem;
+            margin-bottom: 4%;
+          }
 
-        .see-features {
-          text-align: right;
-          font-weight: 500;
+          p {
+            color: white;
+            margin: 0;
+          }
+
+          .see-features {
+            color: white;
+            text-align: right;
+            margin-bottom: 20%;
+          }
         }
       }
 
       .content-3 {
         background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         width: 20%;
+      }
+    }
 
-        p {
-          position: relative;
-          top: 40%;
-          width: 100%;
-          font-weight: 600;
-          text-align: center;
-        }
+    .borders-container {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      z-index: 400;
+      display: flex;
+      justify-content: space-around;
+
+      .border {
+        width: 1px;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.39);
       }
     }
 

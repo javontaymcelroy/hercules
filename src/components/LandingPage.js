@@ -38,23 +38,36 @@ const LandingPage = () => {
         </h2>
         <div className="hero-content">
           <div className="content-1">
-            <h6>Micah Gabriel</h6>
-            <p>
-              “Hercules is the dopest, easiest workout out to use and to track
-              track your progress.”
-            </p>
+            <div className="content1-container">
+              <h6>Micah Gabriel</h6>
+              <p>
+                “Hercules is the dopest, easiest workout out to use and to track
+                track your progress.”
+              </p>
+            </div>
           </div>
           <div className="content-2">
-            <h6>WORKOUT TRACKING</h6>
-            <p>
-              Track your workout progress with ease and convience. No other app
-              can compete!
-            </p>
-            <p className="see-features">See more features</p>
+            <div className="content2-container">
+              <h6>WORKOUT TRACKING</h6>
+              <p>
+                Track your workout progress with ease and convience. No other
+                app can compete!
+              </p>
+              <p className="see-features">See more features</p>
+            </div>
           </div>
           <div className="content-3">
             <p>Meet our team</p>
           </div>
+        </div>
+        <div className="borders-container">
+          <span className="border" />
+          <span className="border" />
+          <span className="border" />
+          <span className="border" />
+          <span className="border" />
+          <span className="border" />
+          <span className="border" />
         </div>
         <img src={heroImg} className="hero-image" alt="hero" />
       </div>
