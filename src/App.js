@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Route } from "react-router-dom";
 
 import React from "react";
 import "./App.scss";
@@ -13,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <LandingPage />
+        <Route to="/" component={LandingPage} />
       </div>
     );
   }

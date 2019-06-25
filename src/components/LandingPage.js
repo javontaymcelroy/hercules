@@ -14,7 +14,7 @@ const LandingPage = () => {
         <div className="landing-nav">
           <img src={logo} className="logo" alt="logo" />
           <div className="link-container">
-            <NavLink to="/home" className="links">
+            <NavLink to="/" className="links">
               Home
             </NavLink>
             <NavLink to="/about" className="links">
