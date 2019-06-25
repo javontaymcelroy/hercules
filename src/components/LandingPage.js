@@ -36,11 +36,11 @@ const LandingPage = () => {
           </div>
           THE WEIGHTLIFTING APP TO RULE THEM ALL.
         </h2>
-        <div className="hero-content">
+        {/* <div className="hero-content">
           <div className="content-1">
             <p>Micah Gabriel</p>
           </div>
-        </div>
+        </div> */}
         <img src={heroImg} className="hero-image" alt="hero" />
       </div>
     </div>
