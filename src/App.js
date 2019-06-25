@@ -1,10 +1,12 @@
-import { Component } from "react";
-import { Route } from "react-router-dom";
+import { Component } from 'react';
+import { Route } from 'react-router-dom';
 
-import React from "react";
-import "./App.scss";
+import React from 'react';
+import './App.scss';
 
-import LandingPage from "./components/LandingPage";
+import MarketingSite from './components/MarketingSite';
+import AboutPage from './components/About';
+import MarketingNav from './components/MarketingNav';
 
 class App extends Component {
   constructor(props) {
@@ -13,8 +15,9 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
-        <Route to="/" component={LandingPage} />
+      <div className='App'>
+        <Route exact path='/' component={MarketingSite} />
+        <Route to='/about' component={AboutPage} />
       </div>
     );
   }
